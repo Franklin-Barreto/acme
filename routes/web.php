@@ -14,3 +14,5 @@
 Route::get('/', 'AcmeController@index');
 Route::get('/form', 'FormController@index');
 Route::get('/questions', 'QuestionController@index');
+Route::post('/questions',['uses'=>'QuestionController@store','as'=>'question.store'] );
+
