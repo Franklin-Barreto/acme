@@ -20,7 +20,7 @@
         </div>
         <script src="{{asset('/js/app.js')}}"></script>
         <script>
-        $('.content').append('MEU SACO');
+        $('.content').append('Funcionou');
         </script>
     </body>
 </html>
