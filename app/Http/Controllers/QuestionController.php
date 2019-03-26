@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 use Kris\LaravelFormBuilder\FormBuilder;
 
 class QuestionController extends Controller
@@ -16,8 +17,9 @@ class QuestionController extends Controller
         return view('questions', compact('form'));
     }
 
-    public function store()
+    public function store(Request $request)
     {
-        echo 'My eggs';
+       echo '<pre>';
+       var_dump($request);
     }
 }

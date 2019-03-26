@@ -17,7 +17,7 @@ class QuestionnaireForm extends Form
             $this->$functionName($question);
         }
         $this
-            ->add('submit', 'submit', ['label' => 'Save form','attr'=>['class'=>'btn btn-primary']]);
+            ->add('submit', 'submit', ['label' => 'Save form', 'attr' => ['class' => 'btn btn-primary']]);
 
     }
 
