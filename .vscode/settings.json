@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "C:\\Users\\frank\\Desktop\\docker\\php\\acme\\database\\database.sqlite",
+            "dialect": "SQLite",
+            "name": "acme"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
