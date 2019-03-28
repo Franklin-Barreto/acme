@@ -12,7 +12,12 @@ class QuestionnaireTableSeeder extends Seeder
      */
     public function run()
     {
-        Questionnaire::create(['description' => 'Personal informations']);
+        Questionnaire::create(
+            [
+                ['description' => 'Personal informations'],
+                ['description' => 'Work informations'],
+            ]
+        );
 
     }
 }

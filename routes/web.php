@@ -13,6 +13,7 @@
 
 Route::get('/', 'AcmeController@index');
 Route::get('/form', 'FormController@index');
+Route::get('/admin', 'AdminController@index');
 Route::get('/questions', 'QuestionController@index');
 Route::post('/questions',['uses'=>'QuestionController@store','as'=>'question.store'] );
 Route::post('/answers',['uses'=>'AnswerController@store','as'=>'answer.store'] );

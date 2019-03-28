@@ -10,6 +10,6 @@ class Questionnaire extends Model
 
     public function questions()
     {
-        return $this->hasMany('App\Models\Question','questionnaire_id');
+        return $this->hasMany('App\Models\Question', 'questionnaire_id');
     }
 }
